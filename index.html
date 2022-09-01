@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz on Triangles</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="quiz.css" />
+  </head>
+  <body>
+    <header>
+      <h1>fun with triangles</h1>
+      <nav>
+        <a href="./Is it a triangle/triangle.html">Is it a Triangle?</a>
+        <a class="links link-primary" href="./index.html">Quiz</a>
+        <a href="./Calc Hypotenuse/hypotenuse.html">Hypotenuse</a>
+        <a href="./Calc Area of Triangle/triangle-area.html">Area of Triangle</a>
+      </nav>
+    </header>
+    <main class="quiz">
+      <h1>Quiz on triangles</h1>
+      <p><i>(correct answer will give you <strong>1 point</strong>)</i></p>
+      <form class="quiz-form">
+        <div class="container">
+          <p>
+            Q1 Which ancient Greek philosopher studied triangles?
+          </p>
+          <label><input type="radio" name="question1" value="Plato" />Plato</label>
+          <label><input type="radio" name="question1" value="Socrates" />Socrates</label>
+          <label><input type="radio" name="question1" value="Aristotle" />Aristotle</label>
+          <label><input type="radio" name="question1" value="Pythagoras" />Pythagoras</label>
+        </div>
+        <div class="container">
+          <p>
+            Q2 What is the third angle for the triangle where angle1 = 45° and
+            angle2 = 15°?
+          </p>
+          <label>
+            <input type="radio" name="question2" value="140°" />140°
+          </label>
+          <label
+            ><input type="radio" name="question2" value="120°" />120°</label
+          >
+          <label
+            ><input type="radio" name="question2" value="130°" />130°
+            </label
+          >
+        </div>
+        <div class="container">
+          <p>Q3 If a triangle has angle1 = 40°, angle2 = 40°, angle3 = 100°, what kind of triangle is it?</p>
+
+          <label><input type="radio" name="question3" value="Equilateral Triangle" />Equilateral Triangle</label>
+          <label><input type="radio" name="question3" value="Isoceles Triangle" />Isoceles Triangle</label>
+          <label><input type="radio" name="question3" value="Scalene Triangle" />Scalene Triangle</label>
+
+        </div>
+        <div class="container">
+          <p>Q4 Which of the following can form a right angled triangle?</p>
+          <label>
+            <input type="radio" name="question4" value="14, 15, 26" />
+            14, 15, 26
+          </label>
+          <label>
+            <input type="radio" name="question4" value="12, 16, 20" />
+            12, 16, 20</label
+          >
+        </div>
+        <div class="container">
+          <p>Q5 If a triangle has angle1 = 50°, angle2 = 70°, angle3 = 60°, what kind of triangle is it?</p>
+          <label>
+            <input type="radio" name="question5" value="Acute triangle" />
+            Acute Triangle
+          </label>
+          <label>
+            <input type="radio" name="question5" value="Obtuse triangle" />
+            Obtuse triangle</label>
+          <label>
+            <input type="radio" name="question5" value="Right triangle" />
+            Right triangle</label>
+        </div>
+        <div class="container">
+          <p>
+            Q6 If one angle of a triangle is obtuse, then which one of the
+            following is the possible measure of remaining angles?
+          </p>
+          <label>
+            <input type="radio" name="question6" value="100°" />
+            100°
+          </label>
+          <label>
+            <input type="radio" name="question6" value="85°" />
+            85°</label
+          >
+        </div>
+
+        <div class="container">
+          <p>
+            Q7 If the largest angle in a triangle is 70°, what is the least
+            possible value of the smallest angle of the triangle?
+          </p>
+          <label>
+            <input type="radio" name="question7" value="50°" />
+            50°
+          </label>
+          <label>
+            <input type="radio" name="question7" value="30°" />
+            30°
+          </label>
+        </div>
+
+        <div class="container">
+          <p>Q8 The perimeter of scalene triangle with sides a, b, c is</p>
+          <label>
+            <input type="radio" name="question8" value="a + b + c" />
+            a + b + c
+          </label>
+          <label>
+            <input type="radio" name="question8" value="2a" />
+            2a
+          </label>
+          <label>
+            <input type="radio" name="question8" value="None of these" />
+            None of these
+          </label>
+        </div>
+
+        <div class="container">
+          <p>Q9 A scalene triangle has ___ lines of symmetry</p>
+          <label>
+            <input type="radio" name="question9" value="two" />two
+          </label>
+          <label>
+            <input type="radio" name="question9" value="no" />
+            no
+          </label>
+          <label>
+            <input type="radio" name="question9" value="15" />
+            15
+          </label>
+        </div>
+
+        <div class="container">
+          <p>
+            Q10 There is a right triangle PQR where: angle Q = 90°; angle P = angle
+            R. What is the measure of angles P and R?
+          </p>
+          <label>
+            <input type="radio" name="question10" value="85°" />
+            85°
+          </label>
+          <label>
+            <input type="radio" name="question10" value="65°" />
+            65°
+          </label>
+          <label>
+            <input type="radio" name="question10" value="45°" />
+            45°
+          </label>
+        </div>
+      </form>
+      <button class="btn-check" id="submit-answers-btn">Submit Answers</button>
+      <h2 class="output"></h2>
+    </main>
+
+    <footer>
+    <ul class="list-style">
+      <li class="list-style-inline">
+        <a href="https://twitter.com/0xbasantani" target="_blank"><img src="twitter1.svg"></a>
+      </li>
+      <li class="list-style-inline">
+        <a href="https://github.com/Vai8hav" target="_blank"><img src="github.svg"></a>
+      </li>
+      <li class="list-style-inline">
+        <a href="https://www.linkedin.com/in/vaibhavbasantani/" target="_blank"><img src="linkedin.svg"></a>
+      </li>
+    </ul>
+  </footer>
+
+    <script src="./quiz.js"></script>
+  </body>
+</html>

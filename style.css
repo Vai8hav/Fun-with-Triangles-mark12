@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #46a9ff;
+  --secondary: black;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  margin: 0.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  padding: 1rem;
+  background-color: var(--secondary);
+  color: #fff;
+}
+
+header h1 {
+  font-family: 'Orbitron', sans-serif;
+  text-align: initial;
+}
+
+nav {
+  text-align: right;
+}
+
+nav > a {
+  padding: 0 0.5rem;
+}
+
+main {
+  margin: 0 0 7rem;
+}
+
+main h1 {
+  margin: 2rem 0rem;
+}
+
+main h2 {
+  margin: 1rem 0rem;
+}
+
+.input-label {
+  font-size: larger;
+  color: var(--secondary);
+  width: 256px;
+}
+
+.input-label p {
+  font-size: large;
+  margin: 0.5rem;
+}
+
+.input-text {
+  font-size: 14px;
+  outline: #fff;
+  padding: 0.6rem 1rem;
+  margin: 0.5rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 258px;
+}
+
+.btn-check {
+  background: var(--primary-color);
+  border: none;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: #fff;
+  margin: 2rem auto;
+  display: block;
+}
+
+.output {
+  font-size: x-large;
+  margin: 1rem 0rem;
+}
+
+a,img,li {
+  display: inline;
+  color: #fff;
+}
+
+img {
+  width: 40px;
+  padding: 1rem 0.2rem;
+}
+
+footer {
+  padding: 1rem;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+.list-style {
+  list-style: none;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.list-style-inline {
+  display: inline;
+  padding: 0rem 1rem;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: 400;
+}
+
+.links {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  font-size: medium;
+}
